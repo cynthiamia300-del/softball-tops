@@ -1,4 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Delius&family=Story+Script&display=swap');
+
+* {
+    margin: 0px;
+}
+
 body {
-    background-image: url(https://media.istockphoto.com/id/93460049/photo/softball-baseball-balls-and-batters-glove.jpg?s=2048x2048&w=is&k=20&c=gp52-a2Ln6EHvPVs67K32Ara3N2JWcIdoklX3gmGeM0=)
-  
+    font-family: Delius;
+    height: 100vh;
+}
+   
+
+.backgroundimage {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -10;
+    filter: blur(6px);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Akaya Kanadaka";
+}
+
+.header {
+    color: rgb(218, 228, 225);
+    background-color: rgba(53, 55, 48, 0.803);
+    padding-bottom: 100px; 
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 100vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+ 
+}
+
+.nav a {
+    background-color: rgba(221, 223, 126, 0.749);
+       color: whitesmoke;
+
 }
