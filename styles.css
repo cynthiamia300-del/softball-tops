@@ -71,3 +71,15 @@ h1, h2, h3, h4 {
     width: 100vw
 }
 
+.sbimg img {
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.sbimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
