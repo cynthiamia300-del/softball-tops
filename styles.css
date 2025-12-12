@@ -74,12 +74,16 @@ h1, h2, h3, h4 {
 .sbimg img {
     width: 200px;
     height: 200px;
-    flex-wrap: wrap;
 }
 
 .sbimg {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 12%;
 }
 
